@@ -11,20 +11,7 @@ export default function Layout({ children }) {
           >
             React  Questions
           </Link>
-          <div className="flex space-x-4">
-            <Link 
-              to="/about" 
-              className="hover:text-gray-200 transition duration-300"
-            >
-              About
-            </Link>
-            <Link 
-              to="/contact" 
-              className="hover:text-gray-200 transition duration-300"
-            >
-              Contact
-            </Link>
-          </div>
+          
         </div>
       </nav>
       <main className="max-w-7xl mx-auto p-6">
